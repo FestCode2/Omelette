@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.103);
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 20px;
+}
+.text1{
+    text-align: center;
+}
+h1{
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text1 p{
+    font-family: poppins;
+}
+.time:hover{
+    background: white;
+    box-shadow: 0 0 15px rgba(128, 0, 128, 0.397);
+}
+.time{
+    background: rgba(128, 0, 128, 0.144);
+    height: 140px;
+    justify-content: center;
+    margin: 20px;
+    font-family: poppins;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.time ul li{
+    margin-left: 70px;
+    color: rgb(54, 2, 2);
+}
+.time h3{
+    color: rgb(77, 1, 77);
+    padding-left: 10px;
+    padding: 16px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(112, 26, 26);
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul li{
+    font-family: poppins;
+    margin-left: 70px;
+}
+.instru:hover{
+    background: white;
+    box-shadow: 0 0 15px rgba(128, 0, 128, 0.438);
+}
+.instru{
+    background: rgba(128, 0, 128, 0.144);
+    border-radius: 10px;
+    transition: 0.5s;
+    justify-content: center;
+    width: 95%;
+    margin-left: 2%;
+}.instru h2{
+    color: rgb(77, 1, 77);
+}
+.instru ol li{
+    margin-left: 70px;
+    color: rgb(54, 2, 2);
+    font-family: poppins;
+}
+.line{
+    width: 80%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.452);
+    margin-left: 10%;
+}
+.last p{
+    font-family: poppins;
+    margin-left: 30px;
+    color: rgb(54, 2, 2);
+    text-align: center;
+    padding: 20px;
+}
+label{
+    margin-left: 50px;
+    font-weight: bold;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width: 700px){
+    img{
+        padding: 1%;
+    }
+    h1{
+        font-size: 3em;
+    }
+    .time{
+        height: 180px;
+    }
+}
